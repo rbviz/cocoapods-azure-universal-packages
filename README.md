@@ -6,7 +6,7 @@ This project is a [CocoaPods](https://github.com/CocoaPods/CocoaPods) plugin tha
 
 Install the plugin by adding to your `Gemfile`
 ```Ruby
-gem "cocoapods-azure-universal-packages"
+gem "cocoapods-azure-universal-packages2"
 ```
 
 Under the hood the plugin uses the [Azure CLI](https://aka.ms/azcli) to download the Universal Packages, you can install it running
@@ -29,7 +29,7 @@ _Note:_ The plugin will install the Azure CLI [DevOps extension](https://github.
 
 Add to your Podfile
 ```Ruby
-plugin 'cocoapods-azure-universal-packages', {
+plugin 'cocoapods-azure-universal-packages2', {
     :organization => '{{ORGANIZATION_URL}}'
 }
 ```
