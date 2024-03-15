@@ -17,10 +17,10 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_runtime_dependency 'cocoapods', '~> 1.0'
-  spec.add_runtime_dependency 'cocoapods-downloader', '~> 1.0'
+  spec.add_runtime_dependency 'cocoapods-downloader', '~> 2.0'
   spec.add_runtime_dependency 'addressable', '~> 2.6'
 
   spec.add_development_dependency 'rake', '~> 13.0'
-  spec.add_development_dependency 'rspec', '~> 3.9'
-  spec.add_development_dependency 'mocha', '~> 1.11'
+  spec.add_development_dependency 'rspec', '~> 3.0'
+  spec.add_development_dependency 'mocha', '~> 2.0'
 end
