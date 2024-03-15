@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    cocoapods-azure-universal-packages (0.1.1)
+    cocoapods-azure-universal-packages2 (0.0.1)
       addressable (~> 2.6)
       cocoapods (~> 1.0)
       cocoapods-downloader (~> 2.0)
@@ -129,7 +129,7 @@ PLATFORMS
 
 DEPENDENCIES
   cocoapods
-  cocoapods-azure-universal-packages!
+  cocoapods-azure-universal-packages2!
   mocha (~> 2.0)
   rake (~> 13.0)
   rspec (~> 3.0)

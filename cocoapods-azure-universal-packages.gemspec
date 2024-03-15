@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'cocoapods-azure-universal-packages/gem_version.rb'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'cocoapods-azure-universal-packages'
+  spec.name          = 'cocoapods-azure-universal-packages2'
   spec.version       = CocoapodsAzureUniversalPackages::VERSION
   spec.authors       = ['Microsoft Corporation']
   spec.summary       = %q{A CocoaPods plugin for downloading Universal Packages from Azure Artifacts feeds.}
