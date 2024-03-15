@@ -1,7 +1,7 @@
 module CocoapodsAzureUniversalPackages
   class << self
 
-    Pod::HooksManager.register('cocoapods-azure-universal-packages', :pre_install) do |context, options|
+    Pod::HooksManager.register('cocoapods-azure-universal-packages2', :pre_install) do |context, options|
       CocoapodsAzureUniversalPackages.pre_install(options)
     end
 

@@ -1,14 +1,14 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'cocoapods-azure-universal-packages/gem_version.rb'
+require 'cocoapods-azure-universal-packages2/gem_version.rb'
 
 Gem::Specification.new do |spec|
   spec.name          = 'cocoapods-azure-universal-packages2'
   spec.version       = CocoapodsAzureUniversalPackages::VERSION
-  spec.authors       = ['Microsoft Corporation']
+  spec.authors       = ['Aurimas Šeputis']
   spec.summary       = %q{A CocoaPods plugin for downloading Universal Packages from Azure Artifacts feeds.}
-  spec.homepage      = 'https://github.com/microsoft/cocoapods-azure-universal-packages'
+  spec.homepage      = 'https://github.com/rbviz/cocoapods-azure-universal-packages'
   spec.license       = 'MIT'
 
   spec.files         = Dir["lib/**/*"] + %w(README.md LICENSE)

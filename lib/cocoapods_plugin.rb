@@ -1,1 +1,1 @@
-require 'cocoapods-azure-universal-packages'
+require 'cocoapods-azure-universal-packages2'

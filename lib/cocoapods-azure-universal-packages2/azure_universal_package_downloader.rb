@@ -36,7 +36,7 @@ module Pod
 
           if !aup_uri_components.nil?
             download_azure_universal_package!(aup_uri_components.merge({ 'organization' => organization }))
-  
+
             # Extract the file if it's the only one in the package
             package_files = target_path.glob('*')
             if package_files.count == 1 && package_files.first.file?
@@ -57,6 +57,7 @@ module Pod
                   :dmg
                 end
               end
+
               extract_with_type(file, file_type) unless file_type.nil?
             end
           else
