@@ -32,7 +32,7 @@ _Note:_ The plugin will install the Azure CLI [DevOps extension](https://github.
 Add to your Podfile
 ```Ruby
 plugin 'cocoapods-azure-universal-packages2', {
-    :organization => '{{ORGANIZATION_URL}}'
+    organization: '{{ORGANIZATION_URL}}'
 }
 ```
 replacing `{{ORGANIZATION_URL}}` with the base URL of your Azure Artifacts feed (for example: `https://pkgs.dev.azure.com/myorg`).
@@ -40,10 +40,10 @@ replacing `{{ORGANIZATION_URL}}` with the base URL of your Azure Artifacts feed 
 Then, in your podspec set the pod's source to
 ```Ruby
 # For project scoped feeds:
-spec.source = { :http => '{{ORGANIZATION_URL}}/{{PROJECT}}/_apis/packaging/feeds/{{FEED}}/upack/packages/{{PACKAGE}}/versions/{{VERSION}}' }
+spec.source = { http: '{{ORGANIZATION_URL}}/{{PROJECT}}/_apis/packaging/feeds/{{FEED}}/upack/packages/{{PACKAGE}}/versions/{{VERSION}}' }
 
 # For organization scoped feeds:
-spec.source = { :http => '{{ORGANIZATION_URL}}/_apis/packaging/feeds/{{FEED}}/upack/packages/{{PACKAGE}}/versions/{{VERSION}}' }
+spec.source = { http: '{{ORGANIZATION_URL}}/_apis/packaging/feeds/{{FEED}}/upack/packages/{{PACKAGE}}/versions/{{VERSION}}' }
 ```
 where:
 - `{{ORGANIZATION_URL}}` is the URL of your feed's organization

@@ -8,10 +8,10 @@ Gem::Specification.new do |spec|
   spec.version       = CocoapodsAzureUniversalPackages::VERSION
   spec.authors       = ['Aurimas Šeputis']
   spec.summary       = %q{A CocoaPods plugin for downloading Universal Packages from Azure Artifacts feeds.}
-  spec.homepage      = 'https://github.com/rbviz/cocoapods-azure-universal-packages'
+  spec.homepage      = 'https://github.com/rbviz/cocoapods-azure-universal-packages2'
   spec.license       = 'MIT'
 
-  spec.files         = Dir["lib/**/*"] + %w(README.md LICENSE)
+  spec.files         = Dir["lib/**/*"] + %w(README.md)
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
